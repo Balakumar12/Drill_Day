@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-22T04:32:07.752Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario_start()"
+            }
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Check TestProject functionality",
+        "description": "",
+        "id": "testproject-functionality;check-testproject-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario_finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3465399600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDefinitions.LoginStep.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1113018000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Test project",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5410074800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Bala and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bala",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.LoginStep.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98005800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131997500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters chennai",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_enters_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200004700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters email balakumar59192@gmail.com",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_enters_Email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143003200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters phone_number 7502672875",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_enters_Phone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218004000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Select Country",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_Select_Country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99003000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Hits save",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_Hits_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1537024700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "application should be closed",
+            "match": {
+              "location": "StepDefinitions.LoginStep.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TestProject functionality",
+    "description": "",
+    "id": "testproject-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginDemo.feature",
+    "tags": []
+  }
+]
